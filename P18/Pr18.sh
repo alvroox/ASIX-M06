@@ -8,7 +8,7 @@ usage() {
   echo "Usage: ${0} [-dra] USER [USERN]..." >&2
   echo 'Disable local user.' >&2
   echo '  -d  Delete accounts instead of disable them.' >&2
-  echo '  -r  Delete de main directory associated to account.' >&2
+  echo '  -r  Delete the main directory associated to account.' >&2
   echo '  -a  Creates a file of the main directory assigned to the account.' >&2
   exit 1
 }
